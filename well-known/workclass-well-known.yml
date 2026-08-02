@@ -1,0 +1,24 @@
+generated: '2026-07-21'
+method: searched
+source: https://workclass.co
+host: https://workclass.co
+note: >-
+  Domain repurposed. As of 2026-07-21 workclass.co (and www.workclass.co)
+  returns 301 to https://cobtreecafe.co.uk/, an unrelated UK website, and
+  workclass.com is a GoDaddy parked/for-sale page. No well-known documents
+  belonging to WorkClass (the Singapore job platform) are reachable. The 301
+  statuses below reflect that redirect; no bodies were saved because the
+  redirect target is not the provider.
+documents:
+  - path: /.well-known/security.txt
+    status: 301
+  - path: /.well-known/openid-configuration
+    status: 301
+  - path: /.well-known/oauth-authorization-server
+    status: 301
+  - path: /.well-known/api-catalog
+    status: 301
+  - path: /.well-known/ai-plugin.json
+    status: 301
+  - path: /llms.txt
+    status: 301

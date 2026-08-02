@@ -1,7 +1,24 @@
 aid: workclass
-name: Workclass
-description: Workclass is a company surfaced as a portfolio company of 500-global and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/workclass.png
+name: WorkClass
+description: WorkClass is (or was) a Singapore-based job marketplace founded in 2020
+  that matched frontline and blue-collar workers with employers, promising placement
+  within 24 hours via matching algorithms. Backed by 500 Global, Goodwater Capital,
+  Antler, and Kistefos, it surfaced here as a 500 Global portfolio lead. As of July
+  2026 its primary domain workclass.co redirects to an unrelated UK website and
+  workclass.com is parked for sale; no public API, developer portal, client packages,
+  or GitHub organization were found.
 url: https://raw.githubusercontent.com/api-evangelist/workclass/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,11 +26,21 @@ x-backed-by:
 - 500-global
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-status: website-defunct
+x-status-note: workclass.co 301s to an unrelated site (cobtreecafe.co.uk) and workclass.com
+  is parked for sale as of 2026-07-21; company LinkedIn page still lists it as active
+  with 3 employees.
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Jobs
+- Recruitment
+- Hiring
+- Frontline Workers
+- Marketplace
+- Singapore
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,3 +50,10 @@ maintainers:
 common:
 - type: Website
   url: https://workclass.co
+- type: LinkedIn
+  url: https://www.linkedin.com/company/workclass
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
