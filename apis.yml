@@ -30,7 +30,7 @@ x-status: website-defunct
 x-status-note: workclass.co 301s to an unrelated site (cobtreecafe.co.uk) and workclass.com
   is parked for sale as of 2026-07-21; company LinkedIn page still lists it as active
   with 3 employees.
-specificationVersion: '0.20'
+specificationVersion: '0.23'
 created: '2026-07-17'
 modified: '2026-07-21'
 tags:
