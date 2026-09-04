@@ -21,6 +21,8 @@ accessModel:
   source: []
   generated: '2026-07-22'
   method: derived
+  source:
+  - {url: 'https://workclass.co', status: 301, note: 'declared website redirects to https://www.cobtreecafe.co.uk/ — a different registrable domain (workclass.co -> cobtreecafe.co.uk), possible rename or acquisition (probed 2026-09-03, roadmap#169)'}
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/workclass.png
 name: WorkClass
 description: WorkClass is (or was) a Singapore-based job marketplace founded in 2020
